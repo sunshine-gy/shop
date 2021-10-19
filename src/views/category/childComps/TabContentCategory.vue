@@ -26,6 +26,10 @@
           return []
         }
       }
+    },
+    created() {
+      console.log(this.subcategories);
+      console.log(this.subcategories.list);
     }
   }
 </script>
