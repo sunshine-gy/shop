@@ -1,5 +1,5 @@
 <template>
-  <swiper>
+  <swiper :interval= 2000>
     <swiper-item v-for="(item, index) in images"
                  :key="index" class="swiper-item">
       <img :src="item" alt="">
